@@ -12,8 +12,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/proses"
+        app:icon="@android:drawable/ic_menu_add"
         tools:ignore="HardcodedText,MissingConstraints,VisualLintButtonSize"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="1dp" />
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="2dp" />
+
+    <Button
+        android:id="@+id/proses2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/proses2"
+        tools:layout_editor_absoluteY="61dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
